@@ -8,7 +8,6 @@ phases:
   build:
     commands:
       - echo "Running Python Program"
-      - python python/pythoncode.py
       - python python/autodeploy.py
 
 artifacts:
