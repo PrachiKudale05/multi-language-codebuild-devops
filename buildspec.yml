@@ -4,13 +4,12 @@ phases:
   install:
     runtime-versions:
       python: 3.11
-      java: corretto17
 
   build:
     commands:
       - echo "Running Python Program"
-      - python pythoncode.py
-      - python autodeploy.py
+      - python python/pythoncode.py
+      - python python/autodeploy.py
 
 artifacts:
   files:
