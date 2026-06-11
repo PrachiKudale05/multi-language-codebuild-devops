@@ -10,6 +10,7 @@ phases:
     commands:
       - echo "Running Python Program"
       - python pythoncode.py
+      - python autodeploy.py
 
 artifacts:
   files:
