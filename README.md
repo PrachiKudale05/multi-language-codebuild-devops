@@ -1,2 +1,20 @@
-# multi-language-codebuild-devops
-Multi-language DevOps project using GitHub and AWS CodeBuild to execute Python programs through a CI pipeline with buildspec.yml.
+# Multi Language CodeBuild DevOps
+
+This project demonstrates:
+
+- GitHub Repository Management
+- Python Program Execution
+- AWS CodeBuild Integration
+- CI/CD Pipeline using buildspec.yml
+
+## Output
+
+- Highest Number
+- Lowest Number
+- Average Value
+
+## AWS Services Used
+
+- GitHub
+- AWS CodeBuild
+- IAM
